@@ -1,0 +1,53 @@
+body {
+  background-color: #979797;
+}
+
+h1, h2, h3 {
+  color: #093e69;
+}
+
+a{
+  cursor: pointer;
+}
+
+.bg{
+  background-color: #093e69;
+}
+
+.bg:hover{
+  background-color: #0e79d1;
+  transition: 0.8s;
+}
+
+.input{
+  background-clip: padding-box;
+  border-radius: 7px;
+  border: none;
+}
+button .input:hover{
+  background-color: #0e79d1;
+}
+
+.red-bg{
+  background-color: #dc3545 ;
+}
+.red-bg:hover{
+  background-color: #d30d21 ;
+  transition: 0.5s;
+}
+
+.yellow-bg{
+  background-color: #FFD966;
+}
+.yellow-bg:hover{
+  background-color: #f8c429;
+  transition: 0.5s;
+}
+
+.green-bg{
+  background-color: #81C784;
+}
+.green-bg:hover{
+  background-color: #43c249;
+  transition: 0.5s;
+}
